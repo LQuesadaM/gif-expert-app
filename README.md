@@ -6,7 +6,7 @@ Temas puntuales de la sección
 
 - Custom Hooks
 
-- Fetch hacia un API -> 9kdxCLOQpNCK9UdiMIlpuqnZsLtCKZyk
+- Fetch hacia un API
 
 - Comunicación entre componentes
 
