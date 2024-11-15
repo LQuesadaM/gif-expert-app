@@ -9,7 +9,7 @@ export const GrifItem = ({ title, url, id }) => {
 	)
 }
 
-GrifItem.propType = {
+GrifItem.propTypes = {
 	title: PropTypes.string.isRequired,
 	url: PropTypes.string.isRequired,
 }
