@@ -5,10 +5,24 @@
 
 @layer base {
   body {
-    @apply container m-auto max-w-5xl mt-2 bg-slate-900 text-white font-mono p-14
+    @apply container m-auto max-w-7xl mt-2 bg-slate-900 text-white font-mono p-14
+  }
+
+  
+  h2 {
+    @apply text-xl
+  }
+
+
+  h3 {
+    @apply text-2xl
   }
 
   input {
-    @apply bg-white rounded w-full border border-indigo-700 text-black text-lg outline-none py-3 px-4 
+    @apply bg-white rounded w-full border border-indigo-700 text-black text-lg outline-none p-2 
+  }
+
+  .card {
+    @apply flex flex-col justify-center bg-zinc-100 rounded-xl shadow-md mb-5 mr-5 overflow-hidden content-center items-center text-slate-900
   }
 }
