@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import { GrifItem } from './GrifItem.jsx'
 import { useFetchGifs } from '../hooks/useFetchGifs.js'
 import { IsLoading } from './IsLoading.jsx'
@@ -17,4 +18,8 @@ export const GrifGrid = ({ category }) => {
 			</div>
 		</>
 	)
+}
+
+GrifGrid.propTypes = {
+	category: PropTypes.string.isRequired,
 }
