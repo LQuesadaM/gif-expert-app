@@ -1,3 +1,3 @@
 export const IsLoading = ({ isLoading }) => {
-	return isLoading && <h2>...Cargando</h2>
+	return isLoading && <h2>Cargando...</h2>
 }
